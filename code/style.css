@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("bg-masthead.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+header {
+  position: fixed;
+  background-color: aliceblue;
+  height: 90px;;
+  top: 0;
+  right: 0;
+  left: 0;
+  opacity: 0.7;
+}
+
+.container {
+  margin-left: 205px;
+  margin-right: 205px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(53, 45, 45);
+  font-weight: bold;
+  font-size: 40px;
+}
+.divright1{
+margin-top: 20px;
+ 
+}
+.divleft1{
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  
+}
+li{
+  list-style-type: none
+}
+.heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+ position:relative;
+ top: 150px;
+}
+.h1{
+  font-size: 100px;
+  margin-bottom: 30px;
+  font-size: 72px;
+  background: -webkit-linear-gradient(#eee, grey);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.p{
+  font-size: 27px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: rgb(182, 179, 179);
+}
+.asection{
+  margin-top: 400px;
+  text-align: center;
+}
+.image{
+  max-width: 100%;
+  height: auto;
+}
+.texthd{
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 50px;
+  color: rgb(182, 179, 179);
+}
+input{
+  background-color: cadetblue;
+  padding: 20px;
+  border-radius: 10px;
+}
